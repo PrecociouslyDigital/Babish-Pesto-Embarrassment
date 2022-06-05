@@ -113,7 +113,6 @@
             setTimeout(function() {
                 const audio = document.querySelector('audio');
                 const box = document.querySelector('#controls input');
-                console.log(audio);
                 audio.removeAttribute('controls');
                 document.querySelector('#controls').setAttribute("active", true);
                 document.querySelector('#controls input').addEventListener('change', (event) => {
